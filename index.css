@@ -196,7 +196,7 @@ nav {
 }
 .p-box {
  background-color: #2B2B2B;
- width: 50%;
+ width: auto;
  height: 850px;
  margin: 20px;
  border-radius: 20px;
@@ -435,7 +435,7 @@ footer p:nth-child(2) {
  transform: translateX(-50%);
 }
 /* Responsive-Screen CSS */
-@media(max-width:1190px) {
+@media(max-width:1600px) {
  #home {
  background-size: 1150px !important;
  }
@@ -461,7 +461,7 @@ footer p:nth-child(2) {
  }
 }
 /*Tablet Size Screen*/
-@media(max-width:900px) {
+@media(max-width:1280px) {
  #home {
   background-image: none !important;
  }
@@ -538,7 +538,7 @@ footer p:nth-child(2) {
  }
 }
 /*Tablet Size Screen*/
- @media(max-width:600px) {
+ @media(max-width:768px) {
  .p-container,.e-container {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -556,8 +556,8 @@ footer p:nth-child(2) {
   transform: translateX(-10px);
  }
 }
-/*Phone Size Screen*/
-@media(max-width:300px){
+/*Mobile Size Screen*/
+@media(max-width:320px){
  .p-box, .e-box {
   width: 100%;
   height: 300px;
