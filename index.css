@@ -536,9 +536,8 @@ footer p:nth-child(2) {
  }
 }
 /*Mobile Size Screen*/
-@media(max-width:320px){
- .p-box, .e-box {
-  width: 100%;
-  height: 300px;
+@media(max-width:320px) {
+ .LI-profile-badge {
+   display: none;
  }
 }
