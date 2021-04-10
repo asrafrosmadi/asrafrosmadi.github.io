@@ -46,3 +46,34 @@ ol, li {
   color: #424242;
   font-size: 15px;
 }
+.social-icons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.social-icons a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e3e3;
+  margin: 0 13px;
+  border-radius:50%;
+}
+.social-icons i {
+  color: #000000;
+}
+.social-icons a:hover {
+  background-color: #4267B2;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  transition: all ease 0.1s;
+}
+.social-icons a:hover i {
+  color: #FFFFFF;
+  transition: all ease 0.1s;
+}
