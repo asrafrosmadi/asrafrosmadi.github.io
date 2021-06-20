@@ -1,6 +1,6 @@
 
 Hi everyone,
 
-Currently, I'm taking down my previous portfolio as I'm planning to upload the new version of my portfolio. 
+A quick announcement here, new version of my website will be ready for release this July.
 
 Stay tuned.
