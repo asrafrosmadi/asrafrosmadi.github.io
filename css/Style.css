@@ -24,11 +24,7 @@ html, body{
     --sky: linear-gradient(135deg, #7BA6FC 0%, #4267B2 100%);
 
     /*      theme font-family   */
-    --Abel: 'Abel', cursive;
-    --Anton: 'Anton', cursive;
-    --Josefin : 'Josefin', cursive;
     --Lexend: 'Lexend', cursive;
-    --Livvic : 'Livvic', cursive;
     --LexendRegular : 'LexendRegular', cursive;
     --LexendSemiBold : 'LexendSemiBold', cursive;
 }
@@ -414,7 +410,7 @@ main .site-content .post-content > .post-image .post-info span{
 }
 
 main .post-content .post-title a{
-    font-family: var(--Anton);
+font-family: var(--Lexend);
     font-size: 1.5rem;
 }
 
@@ -448,7 +444,7 @@ main .post-content .post-title a{
 /* --------------- Sidebar ----------------------- */
 
 .site-content > .sidebar .category-list{
-    font-family: var(--Livvic);
+    font-family: var(--LexendRegular);
 }
 
 .site-content > .sidebar .category-list .list-items{
@@ -569,7 +565,7 @@ footer.footer .newsletter .form-element input{
     border: none;
     background: transparent;
     color: white;
-    font-family: var(--Josefin);
+    font-family: var(--Lexend);
     font-size: 1rem;
     width: 74%;
 }
@@ -595,7 +591,7 @@ footer.footer .follow div i{
 
 footer.footer .rights{
     justify-content: center;
-    font-family: var(--Josefin);
+    font-family: var(--Lexend);
 }
 
 footer.footer .rights h4 a{
