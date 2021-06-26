@@ -1,6 +1,6 @@
 
 Hi everyone,
 
-A quick announcement here, new version of my website will be ready for release this July.
+A quick announcement here, a new web version 2.0 will be ready for release this July.
 
 Stay tuned.
