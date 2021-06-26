@@ -136,7 +136,7 @@ p{
     margin: 0;
 }
 
-.nav .nav-items .nav-link{
+.nav .nav-items .nav-link, .nav .nav-items .nav-link1 {
     padding: 1.3rem 1.5rem;
     font-size: 1.1rem;
     position: relative;
@@ -144,11 +144,17 @@ p{
     font-size: 1.1rem;
 }
 
-.nav .nav-items .nav-link:hover{
+.nav .nav-items .nav-link1 {
+  /*text-decoration: underline;*/
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 10px;
+}
+
+.nav .nav-items .nav-link:hover, .nav .nav-items .nav-link1:hover {
     background-color: var(--white);
 }
 
-.nav .nav-items .nav-link:hover a{
+.nav .nav-items .nav-link:hover a, .nav .nav-items .nav-link1:hover a {
     color: var(--fb-color);
 }
 
@@ -299,7 +305,7 @@ main .blog h2 { /*,.blog-post*/
 main .blog p, .blog a { /*,.blog-post*/
     text-align: right;
     margin-top: -2.7rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     /*margin-right: 5rem;*/
     cursor: pointer;
     color: var(--fb-lightcolor);
