@@ -416,20 +416,20 @@ main .work-detail {
   box-sizing: border-box;
 }
 
-.column {
+/*.column {
   display: flex;
   justify-content: center;
   float: left;
   width: 30%;
-  margin: 2rem 0 1rem 20px; /*T R B L*/
+  margin: 2rem 0 1rem 20px; /*T R B L*
 }
 
-/* Clearfix (clear floats) */
+/* Clearfix (clear floats) *
 .row::after {
   content: "";
   clear: both;
   display: table;
-}
+}*/
 
 table {
   font-family: arial, sans-serif;
