@@ -203,7 +203,6 @@ button.btn{
 
 /* --------------- Site title ---------------- */
 main .site-title {
-    width: 50%;
     background-size: cover;
     height: 100%;
     margin-right: auto;
@@ -211,6 +210,10 @@ main .site-title {
     position: relative;
     padding: 3rem 3rem;
     color: var(--grey);
+}
+
+main .site-title, main .personal-detail, main .work-detail, main .award-detail, main .skill-detail {
+    width: 50%;
 }
 
 main .site-title .site-background h1 {
@@ -276,7 +279,7 @@ main .site-title .btn:hover {
 }
 
 .flip-card-back p {
-  margin-top: 6rem;
+  margin-top: 5rem;
   padding: 0rem 1rem;
   text-align: center;
   color: white;
@@ -333,6 +336,9 @@ main .site-title .btn:hover {
 }
 
 @media(max-width:1100px) {
+  main .site-title, main .personal-detail, main .work-detail, main .award-detail, main .skill-detail {
+      width: 80%;
+  }
   main .site-title .site-background {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -354,12 +360,18 @@ main .site-title .btn:hover {
 }
 
 @media(max-width:500px) {
+  main .site-title, main .personal-detail, main .work-detail, main .award-detail, main .skill-detail {
+      width: 80%;
+  }
   main .site-title .site-background h1 {
     font-size: 2rem;
   }
 }
 
 @media(max-width:360px) {
+  main .site-title, main .personal-detail, main .work-detail, main .award-detail, main .skill-detail {
+      width: 80%;
+  }
   main .site-title .site-background {
       padding-top: 3rem;
       padding-bottom: 3rem;
@@ -372,10 +384,9 @@ main .site-title .btn:hover {
 
 
 /* ---------------  Personal detail ---------------- */
-main .personal-detail{
+main .personal-detail {
     background: var(--Silver);
     border-radius: 10px;
-    width: 50%;
     background-size: cover;
     height: 100%;
     margin-right: auto;
@@ -391,7 +402,6 @@ main .personal-detail{
 /* ---------------  Work detail ---------------- */
 main .work-detail {
     border-radius: 10px;
-    width: 50%;
     background-size: cover;
     height: 100%;
     margin-right: auto;
@@ -469,10 +479,9 @@ main .work-detail .instagram div > img{
 
 
 /* ---------------  Award detail ---------------- */
-main .award-detail{
+main .award-detail {
     background: var(--Silver);
     border-radius: 10px;
-    width: 50%;
     background-size: cover;
     height: 100%;
     margin-right: auto;
@@ -488,7 +497,6 @@ main .award-detail{
 /* ---------------  Skill detail ---------------- */
 main .skill-detail {
     border-radius: 10px;
-    width: 50%;
     background-size: cover;
     height: 100%;
     margin-right: auto;
@@ -540,7 +548,7 @@ main .skill-detail .skill-cv {
 
 /* ----------------- Footer --------------------- */
 
-footer.footer{
+footer.footer {
     height: 100%;
     background: var(--fb-color);
     position: relative;
